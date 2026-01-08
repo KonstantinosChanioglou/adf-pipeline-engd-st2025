@@ -150,6 +150,10 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
+					"items": {
+						"value": "@pipeline().parameters.for_array",
+						"type": "Expression"
+					},
 					"activities": [
 						{
 							"name": "Wait1",
@@ -178,7 +182,7 @@
 				"defaultValue": false
 			},
 			"for_array": {
-				"type": "string",
+				"type": "array",
 				"defaultValue": [
 					1,
 					2,
