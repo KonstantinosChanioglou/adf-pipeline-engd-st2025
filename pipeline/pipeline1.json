@@ -154,7 +154,7 @@
 			},
 			"iscountry": {
 				"type": "bool",
-				"defaultValue": true
+				"defaultValue": false
 			}
 		},
 		"annotations": []
