@@ -1,0 +1,19 @@
+{
+	"name": "ParquetCountries",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CountriesAzureBlobStorageKostas",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "containerkostas"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
