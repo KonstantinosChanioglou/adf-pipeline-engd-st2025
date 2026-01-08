@@ -1,0 +1,9 @@
+{
+	"name": "ads-engd-st2025-kostas-003",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "cb247ab1-c3c1-4695-a7ea-242a50c57406",
+		"tenantId": "cc7df247-60ce-4a0f-9d75-704cf60efc64"
+	}
+}
