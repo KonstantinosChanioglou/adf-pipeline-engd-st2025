@@ -1,0 +1,12 @@
+{
+	"name": "HttpServerGithubKostas",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/umpirsky/country-list.git",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
