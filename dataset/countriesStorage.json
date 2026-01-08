@@ -1,0 +1,22 @@
+{
+	"name": "countriesStorage",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CountriesAzureBlobStorageKostas",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "containerkostas"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
